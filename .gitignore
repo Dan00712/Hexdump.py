@@ -1,0 +1,4 @@
+venv
+dist
+hexdump.py.egg-info
+.idea

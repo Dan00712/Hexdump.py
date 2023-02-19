@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools", "build"]
+
+[project]
+name = "hexdump.py"
+authors = [
+    {name = "D. St.", email = "dan.stonewall@gmail.com"}
+]
+version = "0.0.1"
+
+[project.scripts]
+hexdump = "main:main"

@@ -2,3 +2,5 @@ venv
 dist
 hexdump.py.egg-info
 .idea
+__pycache__
+

@@ -6,7 +6,7 @@ name = "hexdump.py"
 authors = [
     {name = "D. St.", email = "dan.stonewall@gmail.com"}
 ]
-version = "0.0.1"
+dynamic = ["version"]
 
 [project.scripts]
-hexdump = "main:main"
+hexdump = "hexdump.__main__:main"
